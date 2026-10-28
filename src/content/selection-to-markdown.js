@@ -88,6 +88,7 @@
     const turndownService = new TurndownService({
       headingStyle: 'atx',
       codeBlockStyle: 'fenced',
+      bulletListMarker: '-',
     })
       .remove('script')
       .remove('style');
